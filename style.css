@@ -13,8 +13,15 @@ body{
     font-family: serif;
     /* font-family: 'Roboto', sans-serif; */
     font-size: 14px;
-    background: #eee;
-    overflow-x: hidden
+    overflow-x: hidden;
+    background-image: url(/assets/images/currencies.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
     
 }
 
@@ -41,22 +48,6 @@ body{
     text-decoration: none;
     
 }
-
-.parallax {
-    background-image: url(/assets/images/currencies.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    /* -moz-box-shadow: 0px 13px 75px #000000;
-    -webkit-box-shadow: 0px 13px 75px #000000;
-    box-shadow: 0px 13px 75px #000000; */
-
-}
-
 
 /* Arrow */
 .arrow-down {

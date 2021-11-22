@@ -44,7 +44,7 @@
 
     //  Fixed navbar 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 630) {
+        if ($(this).scrollTop() > 330) {
             $('.navbar').addClass('fixed-top');
             
         } else {
